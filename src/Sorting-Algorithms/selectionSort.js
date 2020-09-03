@@ -1,4 +1,4 @@
-console.log("selection sort");
+//console.log("selection sort");
 
 function selectionSort(arr) {
   for (var i = 0; i < arr.length; i++) {
@@ -8,14 +8,14 @@ function selectionSort(arr) {
         min = j;
       }
     }
-    if(i !== min){
-    var temp = arr[i];
-    arr[i] = arr[min];
-    arr[min] = temp
+    if (i !== min) {
+      var temp = arr[i];
+      arr[i] = arr[min];
+      arr[min] = temp;
     }
-  console.log(arr);
-  return arr;
-}
+    console.log(arr);
+    return arr;
+  }
 }
 
-selectionSort([15, 12, 14, 10]);
+//selectionSort([15, 12, 14, 10]);

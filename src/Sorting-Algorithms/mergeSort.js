@@ -1,4 +1,4 @@
-console.log("merge sort");
+//console.log("merge sort");
 
 function merge(arr1, arr2) {
   var result = [];
@@ -25,4 +25,4 @@ function mergeSort(arr) {
   return merge(left, right);
 }
 
-mergeSort([5, 7, 2, 17, 3, 67, 65, 60]);
+//mergeSort([5, 7, 2, 17, 3, 67, 65, 60]);

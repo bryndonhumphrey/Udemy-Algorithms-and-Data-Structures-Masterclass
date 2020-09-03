@@ -1,4 +1,4 @@
-console.log("the bubble sort script is linked");
+//console.log("the bubble sort script is linked");
 
 function bubbleSort(arr) {
   for (var i = arr.length; i > 0; i--) {
@@ -19,4 +19,4 @@ function bubbleSort(arr) {
   return arr;
 }
 
-bubbleSort([9, 14, 6, 12, 1]);
+//bubbleSort([9, 14, 6, 12, 1]);
