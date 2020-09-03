@@ -8,7 +8,7 @@ function bubbleSort(arr) {
         var temp = arr[j];
         arr[j] = arr[j + 1];
         arr[j + 1] = temp;
-        var noSwaps = false;
+        noSwaps = false;
       }
     }
     if (noSwaps === true) {
