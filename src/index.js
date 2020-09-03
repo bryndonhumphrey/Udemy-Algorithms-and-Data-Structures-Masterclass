@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import "./Sorting-Algorithms/bubble.js";
+import "./Data-Structures/singlyLinkedList";
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
